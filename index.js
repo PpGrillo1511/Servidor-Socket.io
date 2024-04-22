@@ -52,7 +52,6 @@ app.get('/update_distance', (req, res) => {
 });
 
 // Iniciar el servidor
-const PORT = 3000;
 server.listen(PORT, () => {
     console.log(`Servidor HTTP y Socket.IO en línea en el puerto ${PORT}`);
 });
